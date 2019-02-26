@@ -15,8 +15,8 @@ public class Starter {
         king.display();
         king.move();
         king.fight();
-        //king.setWeaponBehavior(new SwordBehavior());
-        //king.fight();
+        king.setWeaponBehavior(new SwordBehavior());
+        king.fight();
         System.out.println();
 
         System.out.println("Queen");
